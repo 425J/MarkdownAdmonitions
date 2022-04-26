@@ -104,13 +104,17 @@ The SVG file contains the following part:
 									c24.839,0,45.045,20.206,45.045,45.045C301.027,417.214,280.821,437.421,255.981,437.421z"/>
 						</g>
 					</svg>
-					<span class="message"><b> ⚠️ Caution</b><br/>
+					<span class="message"><b>Caution</b><br/>
 					This tool is at the <b>alpha phase</b>. It means that the code is not a complete solution; that the code may not be fully functional; that the code may not have been tested or validated; and that the code may have bugs and errors. The tool may change drastically once it reaches the beta phase. <b>Use at your own risk.</b></span>
 				</div>
 			</div>
 ```
 
 The `<span class="message">` element contains the admonition message. The `<path>` element describes the icon.
+
+The SVG admonition looks like this:
+
+![](/SVG/ExampleWarning.svg)
 
 The advantage of this solution is that it always looks the same. However, the main disadvantage is that **it is not responsive** because the box has a fixed size, so if we create a message that looks good on a high-resolution PC, it will look bad on a mobile device and vice versa. Another disadvantage is that you have to create separate files for each message and attach them to the Markdown document as a dependency.
 
