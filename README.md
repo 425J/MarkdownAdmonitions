@@ -46,7 +46,16 @@ This technique is simple and works well on platforms that use extensive Markdown
 | ℹ️ NOTE<br>To properly display this example, use the markdown viewer without sanitization. |
 | :-- |
 
-It is possible to use [HTML tags](https://www.markdownguide.org/basic-syntax/#html) in Markdown. This feature can be used to format admonitions as an HTML table. Examples of admonitions using the HTML technique are as below:
+It is possible to use [HTML tags](https://www.markdownguide.org/basic-syntax/#html) in Markdown. This feature can be used to format admonitions as an HTML table as follows:
+
+```html
+<table style="background-color:#FFF8E6;color:black;border-style:solid;border-color:#E6A700;border-width:thin;border-left-width:thick;">
+<tr align= "left"><th>⚠️ Caution</th></tr>
+<tr><td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa, nec semper lorem quam in massa.</td></tr> 
+</table>
+```
+
+Examples of admonitions using the HTML technique are as below:
 
 <table style="background-color:#FDFDFE;color:black;border-style:solid;border-color:#D4D5D8;border-width:thin;border-left-width:thick;">
 <tr align= "left"><th>📝 Note</th></tr>
