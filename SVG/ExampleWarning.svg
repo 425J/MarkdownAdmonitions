@@ -35,7 +35,7 @@
 									c24.839,0,45.045,20.206,45.045,45.045C301.027,417.214,280.821,437.421,255.981,437.421z"/>
 						</g>
 					</svg>
-					<span class="message"><b> ⚠️ Caution</b><br/>
+					<span class="message"><b>Caution</b><br/>
 					This tool is at the <b>alpha phase</b>. It means that the code is not a complete solution; that the code may not be fully functional; that the code may not have been tested or validated; and that the code may have bugs and errors. The tool may change drastically once it reaches the beta phase. <b>Use at your own risk.</b></span>
 				</div>
 			</div>
