@@ -24,7 +24,7 @@ Which will be rendered as:
 
 Using this technique we can create the following admonitions:
 
-| ℹ️ NOTE<br>You might read this, you might not. |
+| 📝 NOTE<br>You might read this, you might not. |
 | :-- |
 
 | ❗ IMPORTANT<br>You should read this. |
@@ -48,7 +48,7 @@ This technique is simple and works well on platforms that use extensive Markdown
 | ❗ IMPORTANT<br>Please note that it will not work properly in GitHub because of it [sanitization filter](https://github.com/github/markup). |
 | :-- |
 
-| ℹ️ NOTE<br>To properly display this example, use the markdown viewer without sanitization. |
+| ℹ️ INFORMATION<br>To properly display this example, use the markdown viewer without sanitization. |
 | :-- |
 
 It is possible to use [HTML tags](https://www.markdownguide.org/basic-syntax/#html) in Markdown. This feature can be used to format admonitions as an HTML table as follows:
