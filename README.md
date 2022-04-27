@@ -4,9 +4,9 @@ The advantage of Markdown is that it is not overly complex. It is also its disad
 
 There is no built-in admonition formatting in vanilla Markdown. It is available only in some advanced flavors (e.g.: [Docusaurus](https://docusaurus.io/docs/markdown-features/admonitions) or [MkDocs](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)). However, there are a couple of workarounds to this issue:
 
-- [Simple Table](#simple-table)
-- [HTML Table](#html-table)
-- [SVG Boxes](#svg-boxes)
+- [Simple Table](#simple-table),
+- [HTML Table](#html-table),
+- [SVG Boxes](#svg-boxes).
 
 ## Simple Table
 
