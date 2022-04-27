@@ -93,7 +93,7 @@ Below are examples of admonitions, using the HTML table technique, rendered in V
 
 ![](/HTML/HTML&#32;Table&#32;Admonitions.png)
 
-The advantage of this solution is that the appearance of the box can be freely customized. Moreover, the box is responsive (looks good on different devices). Unfortunately, the way it is displayed depends on the Markdwon viewer.
+The advantage of this solution is that the appearance of the box can be freely customized. Moreover, the box is responsive (looks good on different devices). Unfortunately, the way it is displayed depends on the Markdown viewer.
 
 ## SVG Boxes
 
