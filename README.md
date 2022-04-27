@@ -84,6 +84,12 @@ Examples of admonitions using the HTML technique are below:
 
 _The above admonitions are inspired by [this](https://github.com/elviswolcott/remark-admonitions#classic-docusaurus-v1)._
 
+Below are examples of admonitions, using the HTML table technique, rendered in VS Code:
+
+![](/HTML/HTML&#32;Table&#32;Admonitions.png)
+
+The advantage of this solution is that the appearance of the box can be freely customized. Moreover, the box is responsive (looks good on different devices). Unfortunately, the way it is displayed depends on the viewer.
+
 ## SVG Boxes
 
 Admonition box can be created as a SVG image and placed in the Markdown document as [image](https://www.markdownguide.org/basic-syntax/#images-1). Examples can be found [here](https://github.com/berakoc/github-notification-markups).
@@ -113,7 +119,7 @@ The `<span class="message">` element contains the admonition message. The `<path
 
 The SVG admonition looks like this:
 
-![](/SVG/ExampleWarning.svg)
+![](/SVG/Example&#32;Warning.svg)
 
 The advantage of this solution is that it always looks the same. However, the main disadvantage is that **it is not responsive** because the box has a fixed size, so if we create a message that looks good on a high-resolution PC, it will look bad on a mobile device and vice versa. Another disadvantage is that you have to create separate files for each message and attach them to the Markdown document as a dependency.
 
