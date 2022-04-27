@@ -130,19 +130,20 @@ The advantage of this solution is that it always looks the same. However, the ma
 
 ---
 
+## Useful Admonition Icons and Guidance
+
+|        Type        | Unicode |         GitHub         | Guidance                                                     |
+| :----------------: | :-----: | :--------------------: | :----------------------------------------------------------- |
+|        Note        |    📝    |        `:memo:`        | It is normally used for general information that you want to stand out. See [this](https://paligo.net/docs/en/admonitions--notes,-warnings,-tips,-etc--.html). |
+| Information/Notice |    ℹ️    | `:information_source:` | It is generally regarded as being of more importance than a regular note. See [this](https://paligo.net/docs/en/admonitions--notes,-warnings,-tips,-etc--.html). |
+|        Tip         |    💡    |        `:bulb:`        | Tips are designed for giving readers helpful advice and suggestions. See [this](https://paligo.net/docs/en/admonitions--notes,-warnings,-tips,-etc--.html). |
+|     Important      |    ❗    |    `:exclamation:`     | This element is for adding extra emphasis to general information. See [this](https://paligo.net/docs/en/admonitions--notes,-warnings,-tips,-etc--.html). |
+|      Caution       |    ⚠️    |      `:warning:`       | Use to advise the reader to *act* carefully (i.e., exercise care). See [this](https://asciidoctor.org/docs/asciidoc-writers-guide/). |
+|   Danger/Warning   |    🔥    |        `:fire:`        | Use to inform the reader of danger, harm, or consequences that exist. See [this](https://asciidoctor.org/docs/asciidoc-writers-guide/). |
+
 ## Aditional Resources
 
 - [Difference between caution and warning](https://www.differencebetween.com/difference-between-caution-and-vs-warning/)
 - [Callouts in Quarto](https://quarto.org/docs/authoring/callouts.html)
 - [Admonitions in Asciidoctor](https://docs.asciidoctor.org/asciidoc/latest/blocks/admonitions/)
 - [GitHub Emoji](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
-
-Useful admonition icons:
-
-| Type        | Unicode | GitHub |
-| :---------: | :-----: | :----: |
-| Note        | 📝       | `:memo:` |
-| Information | ℹ️       | `:information_source:` |
-| Tip         | 💡       | `:bulb:` |
-| Caution     | ⚠️       | `:warning:` |
-| Danger      | 🔥       | `:fire:` |
