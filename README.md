@@ -88,7 +88,7 @@ Below are examples of admonitions, using the HTML table technique, rendered in V
 
 ![](/HTML/HTML&#32;Table&#32;Admonitions.png)
 
-The advantage of this solution is that the appearance of the box can be freely customized. Moreover, the box is responsive (looks good on different devices). Unfortunately, the way it is displayed depends on the viewer.
+The advantage of this solution is that the appearance of the box can be freely customized. Moreover, the box is responsive (looks good on different devices). Unfortunately, the way it is displayed depends on the Markdwon viewer.
 
 ## SVG Boxes
 
@@ -130,7 +130,7 @@ The advantage of this solution is that it always looks the same. However, the ma
 - [Admonitions in Asciidoctor](https://docs.asciidoctor.org/asciidoc/latest/blocks/admonitions/)
 - [GitHub Emoji](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
 
-Useful icons:
+Useful admonition icons:
 
 | Type        | Unicode | GitHub |
 | :---------: | :-----: | :----: |
