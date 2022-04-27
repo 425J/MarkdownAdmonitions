@@ -2,7 +2,12 @@
 
 The advantage of Markdown is that it is not overly complex. It is also its disadvantage. [Vanilla Markdown](https://daringfireball.net/projects/markdown/) lacks many of the features that I usually use when writing documentation. One of them is admonition (aka callout, box, alert, notification, etc).
 
-There is no built-in admonition formatting in vanilla Markdown. It is available only in some advanced flavors (e.g.: [Docusaurus](https://docusaurus.io/docs/markdown-features/admonitions) or [MkDocs](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)). However, there are a couple of workarounds to this issue...
+There is no built-in admonition formatting in vanilla Markdown. It is available only in some advanced flavors (e.g.: [Docusaurus](https://docusaurus.io/docs/markdown-features/admonitions) or [MkDocs](https://squidfunk.github.io/mkdocs-material/reference/admonitions/)). However, there are a couple of workarounds to this issue:
+
+- [Simple Table](#simple-table)
+- [HTML Table](#html-table)
+- [SVG Boxes](#svg-boxes)
+
 ## Simple Table
 
 Admonition can be created using Markdown [table syntax](https://www.markdownguide.org/extended-syntax/#tables) as follows: 
@@ -122,6 +127,8 @@ The SVG admonition looks like this:
 ![](/SVG/Example&#32;Warning.svg)
 
 The advantage of this solution is that it always looks the same. However, the main disadvantage is that **it is not responsive** because the box has a fixed size, so if we create a message that looks good on a high-resolution PC, it will look bad on a mobile device and vice versa. Another disadvantage is that you have to create separate files for each message and attach them to the Markdown document as a dependency.
+
+---
 
 ## Aditional Resources
 
