@@ -55,7 +55,7 @@ It is possible to use [HTML tags](https://www.markdownguide.org/basic-syntax/#ht
 </table>
 ```
 
-Examples of admonitions using the HTML technique are as below:
+Examples of admonitions using the HTML technique are below:
 
 <table style="background-color:#FDFDFE;color:black;border-style:solid;border-color:#D4D5D8;border-width:thin;border-left-width:thick;">
 <tr align= "left"><th>📝 Note</th></tr>
@@ -91,23 +91,22 @@ Admonition box can be created as a SVG image and placed in the Markdown document
 The SVG file contains the following part:
 
 ```html
-			<div class="container">
-				<div class="header">
-					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" fill="#9F6000" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
-						<g>
-							<path d="M501.609,384.603L320.543,51.265c-13.666-23.006-37.802-36.746-64.562-36.746c-26.76,0-50.896,13.74-64.562,36.746
-									c-0.103,0.176-0.19,0.352-0.293,0.528L10.662,384.076c-13.959,23.491-14.223,51.702-0.719,75.457
-									c13.535,23.769,37.919,37.948,65.266,37.948h360.544c27.347,0,52.733-14.179,66.267-37.948
-									C515.524,435.779,515.261,407.566,501.609,384.603z M225.951,167.148c0-16.586,13.445-30.03,30.03-30.03
-									c16.586,0,30.03,13.445,30.03,30.03v120.121c0,16.584-13.445,30.03-30.03,30.03s-30.03-13.447-30.03-30.03V167.148z
-									M255.981,437.421c-24.839,0-45.046-20.206-45.046-45.046c0-24.839,20.206-45.045,45.046-45.045
-									c24.839,0,45.045,20.206,45.045,45.045C301.027,417.214,280.821,437.421,255.981,437.421z"/>
-						</g>
-					</svg>
-					<span class="message"><b>Caution</b><br/>
-					This tool is at the <b>alpha phase</b>. It means that the code is not a complete solution; that the code may not be fully functional; that the code may not have been tested or validated; and that the code may have bugs and errors. The tool may change drastically once it reaches the beta phase. <b>Use at your own risk.</b></span>
-				</div>
-			</div>
+<div class="container">
+	<div class="header">
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" fill="#9F6000" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+			<g>
+				<path d="M501.609,384.603L320.543,51.265c-13.666-23.006-37.802-36.746-64.562-36.746c-26.76,0-50.896,13.74-64.562,36.746
+						c-0.103,0.176-0.19,0.352-0.293,0.528L10.662,384.076c-13.959,23.491-14.223,51.702-0.719,75.457
+						c13.535,23.769,37.919,37.948,65.266,37.948h360.544c27.347,0,52.733-14.179,66.267-37.948
+						C515.524,435.779,515.261,407.566,501.609,384.603z M225.951,167.148c0-16.586,13.445-30.03,30.03-30.03
+						c16.586,0,30.03,13.445,30.03,30.03v120.121c0,16.584-13.445,30.03-30.03,30.03s-30.03-13.447-30.03-30.03V167.148z
+						M255.981,437.421c-24.839,0-45.046-20.206-45.046-45.046c0-24.839,20.206-45.045,45.046-45.045
+						c24.839,0,45.045,20.206,45.045,45.045C301.027,417.214,280.821,437.421,255.981,437.421z"/>
+			</g>
+		</svg>
+		<span class="message"><b>Caution</b><br/>This tool is at the <b>alpha phase</b>. It means that the code is not a complete solution; that the code may not be fully functional; that the code may not have been tested or validated; and that the code may have bugs and errors. The tool may change drastically once it reaches the beta phase. <b>Use at your own risk.</b></span>
+	</div>
+</div>
 ```
 
 The `<span class="message">` element contains the admonition message. The `<path>` element describes the icon.
